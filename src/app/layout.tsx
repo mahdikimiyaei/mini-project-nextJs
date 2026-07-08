@@ -29,12 +29,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="bg-gray-100 dark:bg-gray-900 min-h-screen transition-colors">
-      <body>
+    <html
+      lang="en"
+      className="bg-gray-100 dark:bg-gray-900 transition-colors"
+    >
+      <body className="min-h-screen flex flex-col">
         <ToastContainer />
+
         <Providers>
           <Header />
-          {children}
+
+          <main className="flex-1">
+            {children}
+          </main>
+
           <Footer />
         </Providers>
       </body>
