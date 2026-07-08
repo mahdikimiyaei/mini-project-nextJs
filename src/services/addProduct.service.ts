@@ -11,5 +11,4 @@ export const addProduct = async (data: TAddProductSchema) => {
     } catch (error) {
         throw new Error("errorGetProduct")
     }
-
 }

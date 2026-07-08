@@ -22,10 +22,10 @@ function Header() {
 
     return (
         <>
-            <header className="shadow bg-gray-50">
+            <header className="shadow bg-gray-50 dark:bg-gray-900 dark:text-gray-50 dark:shadow-lg dark:shadow-blue-500">
                 <div className="p-5 flex gap-6 font-bold font-sans">
                     {links.map((link) => (
-                        <Link key={link.route} href={link.route} className={`${pathname === link.route ? "text-blue-400" : "text-black"} hover:shadow-xl shadow-gray-200`}>{link.title}</Link>
+                        <Link key={link.route} href={link.route} className={`${pathname === link.route && "text-blue-400" } hover:shadow-xl shadow-gray-200`}>{link.title}</Link>
                     ))}
                     {theme === "light" ? (
                         <Sun color="yellow" onClick={toggleTheme} className="cursor-pointer" />
