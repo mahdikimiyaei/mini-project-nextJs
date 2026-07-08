@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "bag",
+      "price": 1500000000
+    },
+    {
+      "id": "2",
+      "name": "samsung galaxy",
+      "price": 20000000
+    },
+    {
+      "name": "گوشی موبایل Samsung Galaxy A56",
+      "price": 50000000,
+      "id": "8QPgbhsRlxE"
+    },
+    {
+      "id": "kMeFKdvt19I",
+      "name": "گوشی موبایل Samsung Galaxy A44",
+      "price": 80000000
+    },
+    {
+      "id": "7Y9_-c2-S5E",
+      "name": "گوشی موبایل Samsung Galaxy A12",
+      "price": 20000000
+    },
+    {
+      "name": "گوشی موبایل Samsung Galaxy A10",
+      "price": 12000000,
+      "id": "ZWntTwXpqAg"
+    },
+    {
+      "name": "گوشی موبایل Samsung Galaxy A2",
+      "price": 5000000,
+      "id": "CZ0kg6NeD9U"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
