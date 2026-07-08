@@ -23,6 +23,7 @@ function ProductForm() {
             })
             toast.success("با موفقیت ثبت شد")
             route.push(routes.home);
+            
         },
         onError: () => {
             toast.error("خطا")

@@ -29,6 +29,11 @@
       "name": "گوشی موبایل Samsung Galaxy A10",
       "price": 12000000,
       "id": "ZWntTwXpqAg"
+    },
+    {
+      "name": "گوشی موبایل Samsung Galaxy a16",
+      "price": 30000000,
+      "id": "ef6Xtk5tzuI"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

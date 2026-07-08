@@ -1,10 +1,10 @@
 import ShowProducts from "@/components/ShowProducts";
 import { endpoints } from "@/constants/endpoints";
-import { api } from "@/lib/axios";
 import { IProducts } from "@/types/IProducts.type";
 
 async function Home() {
-  const { data } = await api.get(endpoints.products);
+  const res = await fetch(`${endpoints.baseURL}`);
+  const data = await res.json() as IProducts[];
 
   return (
     <>

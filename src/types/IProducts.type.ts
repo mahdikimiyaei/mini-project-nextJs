@@ -8,6 +8,6 @@ export interface IShowProducts {
     product: IProducts
 }
 
-export interface IdataRes {
+export interface IDataRes {
     data: IProducts
 }
