@@ -54,7 +54,7 @@ function Footer() {
         </div>
 
         <div className="font-bold mt-10 border-t border-gray-200 pt-6 text-center text-sm text-gray-500">
-          © {new Date().getFullYear()} Product App. All rights reserved.
+          © 2026 Product App. All rights reserved.
         </div>
       </div>
     </footer>
