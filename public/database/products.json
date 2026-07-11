@@ -29,6 +29,31 @@
       "name": "گوشی موبایل Samsung Galaxy A10",
       "price": 12000000,
       "id": "ZWntTwXpqAg"
+    },
+    {
+      "name": "گوشی موبایل Samsung Galaxy A56",
+      "price": 50000000,
+      "id": "W1JWcjh1VRE"
+    },
+    {
+      "name": "mohammad",
+      "price": 50000000,
+      "id": "opIQmt6mJF8"
+    },
+    {
+      "name": "گوشی موبایل Samsung Galaxy A50",
+      "price": 50000000,
+      "id": "FqVNjnMqJp4"
+    },
+    {
+      "name": "گوشی موبایل Samsung Galaxy A44",
+      "price": 600000000,
+      "id": "65tHV4_LP5M"
+    },
+    {
+      "name": "گوشی موبایل Samsung Galaxy A56",
+      "price": 500000000,
+      "id": "PkJF85DcMT4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

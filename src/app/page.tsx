@@ -3,7 +3,12 @@ import { endpoints } from "@/constants/endpoints";
 import { IProducts } from "@/types/IProducts.type";
 
 async function Home() {
-  const res = await fetch(`${endpoints.baseURL}`);
+  const res = await fetch(`${endpoints.baseURL}`, {
+    next: {
+      revalidate: 3600,
+      tags: ['products']
+    }
+  });
   const data = await res.json() as IProducts[];
 
   return (

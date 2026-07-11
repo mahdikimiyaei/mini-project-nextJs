@@ -1,14 +1,11 @@
 import { endpoints } from "@/constants/endpoints";
 import { IDetailsId } from "@/types/IDetails.type";
 import { IProducts } from "@/types/IProducts.type";
-import { cacheLife } from "next/cache";
 
 async function Details({ params }: IDetailsId) {
-    "use cache"
     const { id } = await params;
     const res = await fetch(`${endpoints.baseURL}/${id}`)
     const data = await res.json() as IProducts;
-    cacheLife("minutes")
 
     return (
         <div>
